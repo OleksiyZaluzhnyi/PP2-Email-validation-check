@@ -36,4 +36,4 @@ function validateEmail(email) {
     return true;
 }
 
-console.log(validateEmail("a.zaluzhnyy24@gmail.com"));
+module.exports = validateEmail;

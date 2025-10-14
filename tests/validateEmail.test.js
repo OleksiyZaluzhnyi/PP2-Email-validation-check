@@ -81,3 +81,4 @@ test("Entering email with more than two consecutive dot signs in domain part sho
 test("Entering email with invalid domain part structure should return Error object", () => {
     expect(validateEmail("JoeBartolozzi@ail")).toStrictEqual(Error("Invalid domain format!"));
 });
+
